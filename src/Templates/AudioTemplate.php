@@ -1,6 +1,6 @@
 <?php
 
-namespace AudioUpload\Templates;
+namespace Someblueuser\AudioUpload\Templates;
 
 use FoF\Upload\Contracts\Template;
 use FoF\Upload\File;
@@ -26,9 +26,4 @@ class AudioUploadTemplate implements Template
     {
         return '[audio]' . $file->url . '[/audio]';
     }
-
-    return [
-        (new Extend\ServiceProvider())
-            ->register(MyServiceProvider::class),
-    ];
 }

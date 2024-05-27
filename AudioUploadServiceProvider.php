@@ -1,8 +1,8 @@
 <?php
 
-namespace AudioUpload;
+namespace Someblueuser\AudioUpload;
 
-use AudioUpload\Templates\AudioUploadTemplate;
+use AudioUpload\Templates\AudioUploadTemplate as AudioUploadTemplate;
 use Flarum\Foundation\AbstractServiceProvider;
 use FoF\Upload\Helpers\Util;
 
