@@ -2,7 +2,7 @@
 
 namespace Someblueuser\AudioUpload;
 
-use AudioUpload\Templates\AudioUploadTemplate as AudioUploadTemplate;
+use Someblueuser\AudioUpload\Templates\AudioUploadTemplate as AudioUploadTemplate;
 use Flarum\Foundation\AbstractServiceProvider;
 use FoF\Upload\Helpers\Util;
 
