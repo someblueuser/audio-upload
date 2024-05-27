@@ -1,6 +1,6 @@
 <?php
 
-use AudioUpload\AudioUploadServiceProvider;
+use Someblueuser\AudioUpload\AudioUploadServiceProvider;
 use Flarum\Extend;
 
 return [

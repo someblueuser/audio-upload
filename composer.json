@@ -8,7 +8,7 @@
     },
     "autoload": {
         "psr-4": {
-            "AudioUpload\\": "src/"
+            "Someblueuser\\AudioUpload\\": "src/"
         }
     },
     "extra": {
