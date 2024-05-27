@@ -4,7 +4,7 @@
     "type": "flarum-extension",
     "require": {
         "flarum/core": "^1.0",
-        "fof/upload": "^1.20.0"
+        "fof/upload": "*"
     },
     "autoload": {
         "psr-4": {
