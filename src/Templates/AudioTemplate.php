@@ -5,7 +5,7 @@ namespace Someblueuser\AudioUpload\Templates;
 use FoF\Upload\Contracts\Template;
 use FoF\Upload\File;
 
-class AudioUploadTemplate implements Template
+class AudioTemplate implements Template
 {
     public function tag(): string
     {
@@ -24,6 +24,6 @@ class AudioUploadTemplate implements Template
 
     public function preview(File $file): string
     {
-        return '[audio]' . $file->url . '[/audio]';
+        return '[audio mp3="'. $file->url .'"]';
     }
 }
